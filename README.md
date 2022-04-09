@@ -18,8 +18,7 @@ If you use these pipeline, please cite:
 ### 1. Preprocessing: Mapping and variant calling
 *Required softwares and version:* [VCFtools](http://vcftools.sourceforge.net/) 0.1.14; [PLINK](https://www.cog-genomics.org/plink/1.9/) 1.9; [KING](https://www.kingrelatedness.com/); [PCAngsd](http://www.popgen.dk/software/index.php/PCAngsd).
 
-*Required files:* GRCh37.dna.primary_assembly.fa; 1000G_phase1.indels.b37.vcf; 1000G_phase1.snps.high_confidence.b37.vcf; 1000G_omni2.5.b37.vcf; dbsnp_138.b37.vcf; hapmap_3.3.b37.vcf; Mills_and_1000G_gold_standard.indels.b37.vcf
-Go to this [link](https://gist.github.com/ShujiaHuang/56fe45439afc208a3fc2e8cf85803cf8) to know how to download these files.
+*Required files:* GRCh37.dna.primary_assembly.fa; 1000G_phase1.indels.b37.vcf; 1000G_phase1.snps.high_confidence.b37.vcf; 1000G_omni2.5.b37.vcf; dbsnp_138.b37.vcf; hapmap_3.3.b37.vcf; Mills_and_1000G_gold_standard.indels.b37.vcf Go to this [link](https://gist.github.com/ShujiaHuang/56fe45439afc208a3fc2e8cf85803cf8) to see how to download these files.
 
 Brielfy, it performs: (i) a QC assessment of the FASTQ files, (ii) adapters trimming, (iii) mapping to the GRCh37 human reference, (iv) coverage and mapping statistics, and (v) variant calling. 
 
