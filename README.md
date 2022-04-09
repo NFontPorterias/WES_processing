@@ -16,7 +16,8 @@ If you use these pipeline, please cite:
 
 ## Pipeline
 ### 1. Preprocessing: Mapping and variant calling
-*Required softwares and version:* ; ; ;
+*Required softwares and version:* [VCFtools](http://vcftools.sourceforge.net/) 0.1.14; [PLINK](https://www.cog-genomics.org/plink/1.9/) 1.9; [KING](https://www.kingrelatedness.com/); [PCAngsd](http://www.popgen.dk/software/index.php/PCAngsd).
+
 *Required files:* ; ; ;
 
 Brielfy, it performs: (i) a QC assessment of the FASTQ files, (ii) adapters trimming, (iii) mapping to the GRCh37 human reference, (iv) coverage and mapping statistics, and (v) variant calling. 
@@ -29,7 +30,7 @@ sh Script1_mapping_varcalling_exomes.sh
 ```
 
 ### 2. Variant Filtering and Quality Control
-*Required softwares and version:* ; ; ;
+*Required softwares and version:* [VCFtools](http://vcftools.sourceforge.net/) 0.1.14; [PLINK](https://www.cog-genomics.org/plink/1.9/) 1.9; [KING](https://www.kingrelatedness.com/); [PCAngsd](http://www.popgen.dk/software/index.php/PCAngsd).
 
 Brielfy, it performs: (i) Variant and samle filtering, (ii) VCF QC assessment, and (iii) relatedness estimation. 
 
